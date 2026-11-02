@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bite-box</title>
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/e4fda8796b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
    <header>
-   <img src="/assets/icons/BiteBox logo.png" alt="Logo" height="150px" width="150px">
+   <img class="logo" src="/assets/icons/BiteBox logo.png" alt="Logo" >
      <nav>
-           <p>
+          
         <a href="index.html">Home</a>
         |
         <a href="menu.html">Menu</a>
@@ -20,22 +24,24 @@
         <a href="contact.html">Contact</a>
         |
         <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-    </p> 
+    
      </nav>
    </header>
 <main>
 <!-- Hero section -->
-<section>
+<section id="Home-Hero">
   
-    <h1>Delicious Food Delivered To Your Doorstep</h1>
+    <h1>Delicious Food Delivered To Your <span>Doorstep</span></h1>
     <p>
         Fresh ingredients, delicious recipes, and fast delivery 
         — all in one place.
     </p>
  
-    <a href="menu.html">Order Now</a>
+    <div class="hero-button">
+        <a class="order-btn" href="menu.html">Order Now</a>
     |
-    <a href="menu.html">Explore Menu</a>
+    <a class="menu-btn" href="menu.html">Explore Menu</a>
+    </div>
   
 </section>
 
@@ -184,10 +190,10 @@
             </div>
  
             <div class="offer-image">
-                <img src="assets/images/Special Offer Pizza.jpg" 
+                <img src="/assets/images/Special Offer Pizza.jpg" 
                 alt="Special Offer Pizza" width="420" height="420">
  
-                <img src="assets/images/20% OFF.jpg" alt="20% OFF" width="180" 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNGkD8pVRTYdzfTeiB3AGGO3gtOWeyka6UXRH682zKg&s=10" alt="20% OFF" width="180" 
                 height="180">
             </div>
         </section>
@@ -197,7 +203,7 @@
            <h2>What Our Customers Say</h2>
 
           <article>
-             <img src="assets/images/customer1.png" alt="Priya Sharma" 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXFtje7W04ke2rVtbSaOD0nBvEuClMdb5q29RBuP8Xw&s" alt="Priya Sharma" 
                 width="80" height="80">
                 <h3>Priya Sharma</h3>
                 <p> Amazing food and super fast delivery.
@@ -219,11 +225,10 @@
             </article>
 
 
-                <p> <span>⭐⭐⭐⭐⭐</span> </p>
-            </article>
+       
 
             <article>
-                <img src="assets/images/customer3.png" alt="Anjali Mehta" 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sxVEDI3pBvW7VgAsNquewxkILm7x_yudR8jUsXHfvw&s=10" alt="Anjali Mehta" 
                 width="80" height="80">
                 <h3>Anjali Mehta</h3>
                 <p>
@@ -361,12 +366,12 @@
     <hr>
 
     <!-- Payment Methods -->
-    <section>
+       <section>
         <h3>Payment Methods</h3>
-        <img src="assets/icons/visa.png" alt="Visa" width="60">
-        <img src="https://www.svgrepo.com/show/452059/mastercard.svg" alt="MasterCard" width="60">
-        <img src="assets/icons/UPI.png" alt="UPI" width="60">
-        <img src="assets/icons/paytm.png"  alt="Paytm" width="60">
+        <img src="/assets/icons/visa icon.png" alt="Visa" width="60">
+        <img src="/assets/icons/mc icon.png" alt="MasterCard" width="60">
+        <img src="/assets/icons/upi icon.png" alt="UPI" width="60">
+        <img src="/assets/icons/paytm icon.png"  alt="Paytm" width="60">
     </section>
 
     <hr>
